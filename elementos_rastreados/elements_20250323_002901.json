@@ -1,0 +1,156 @@
+[
+  {
+    "timestamp": "2025-03-23 00:29:00",
+    "url": "https://vhseguro.sixvox.com.br/index.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "button",
+        "text": "Atualizar Gráfico",
+        "id": null,
+        "name": null,
+        "class": null,
+        "selector": "body#demos > div > center:nth-of-type(2) > button"
+      },
+      {
+        "type": "input",
+        "input_type": "submit",
+        "id": null,
+        "name": null,
+        "placeholder": null,
+        "class": null,
+        "selector": "form#aspnetForm > input"
+      },
+      {
+        "type": "input",
+        "input_type": null,
+        "id": "dash_inicio",
+        "name": "dash_inicio",
+        "placeholder": "",
+        "class": "data   hasDatepicker",
+        "selector": "#dash_inicio"
+      },
+      {
+        "type": "input",
+        "input_type": null,
+        "id": "dash_fim",
+        "name": "dash_fim",
+        "placeholder": "",
+        "class": "data   hasDatepicker",
+        "selector": "#dash_fim"
+      },
+      {
+        "type": "link",
+        "text": "SIXVOX",
+        "href": "#",
+        "id": null,
+        "class": "brand-logo",
+        "selector": "body#demos > header > div > a"
+      },
+      {
+        "type": "link",
+        "text": "Início",
+        "href": "/",
+        "id": "menu_inicio",
+        "class": "icon_active",
+        "selector": "#menu_inicio"
+      },
+      {
+        "type": "link",
+        "text": "Pesquisar",
+        "href": "/pf/index.php",
+        "id": "menu_pesquisar",
+        "class": null,
+        "selector": "#menu_pesquisar"
+      },
+      {
+        "type": "link",
+        "text": "Propostas",
+        "href": "/propostas",
+        "id": "menu_propostas",
+        "class": null,
+        "selector": "#menu_propostas"
+      },
+      {
+        "type": "link",
+        "text": "Área do Corretor",
+        "href": "/nobre/",
+        "id": "menu_lead",
+        "class": null,
+        "selector": "#menu_lead"
+      },
+      {
+        "type": "link",
+        "text": "Indicações",
+        "href": "/lead/",
+        "id": "menu_lead",
+        "class": null,
+        "selector": "#menu_lead"
+      },
+      {
+        "type": "link",
+        "text": "Relatórios",
+        "href": "/Relatorio/",
+        "id": "menu_relatorios",
+        "class": null,
+        "selector": "#menu_relatorios"
+      },
+      {
+        "type": "link",
+        "text": "Equipe",
+        "href": "/equipe_vendas/",
+        "id": "menu_equipe",
+        "class": null,
+        "selector": "#menu_equipe"
+      },
+      {
+        "type": "link",
+        "text": "Conta Corrente",
+        "href": "/conta_corrente/",
+        "id": "menu_conta",
+        "class": null,
+        "selector": "#menu_conta"
+      },
+      {
+        "type": "link",
+        "text": "Despesas",
+        "href": "/tag/",
+        "id": "menu_despesa",
+        "class": null,
+        "selector": "#menu_despesa"
+      },
+      {
+        "type": "link",
+        "text": "Confirmação",
+        "href": "/conf_lote/",
+        "id": "menu_conf",
+        "class": null,
+        "selector": "#menu_conf"
+      },
+      {
+        "type": "link",
+        "text": "Produtos",
+        "href": "/produto/",
+        "id": "menu_produtos",
+        "class": null,
+        "selector": "#menu_produtos"
+      },
+      {
+        "type": "link",
+        "text": "Configuração",
+        "href": "/corretora/",
+        "id": "menu_corr",
+        "class": null,
+        "selector": "#menu_corr"
+      },
+      {
+        "type": "link",
+        "text": "Sair",
+        "href": "/sair.php",
+        "id": null,
+        "class": null,
+        "selector": "body#demos > header > div:nth-of-type(2) > a:nth-of-type(13)"
+      }
+    ]
+  }
+]
