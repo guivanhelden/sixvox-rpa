@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Configurações
 URL = "https://vhseguro.sixvox.com.br"
 EMAIL = "marketing@vhseguros.com.br"
-PASSWORD = "M@aite2017"
+PASSWORD = "M@ite2017"  # Corrigido para corresponder ao arquivo playwright
 
 # Diretório para salvar os dados rastreados
 ELEMENTS_DIR = "elementos_rastreados"
@@ -27,6 +27,7 @@ class ElementTracker:
         self.driver = None
         self.tracked_elements = []
         self.current_page = ""
+        self.interacted_elements = set()  # Conjunto para armazenar elementos com interação
         
     def setup_driver(self):
         """Configura o driver do Selenium Wire"""
@@ -45,46 +46,123 @@ class ElementTracker:
             seleniumwire_options=seleniumwire_options
         )
         
+        # Adicionar scripts para monitorar interações do usuário
+        self.add_interaction_monitoring()
+        
+    def add_interaction_monitoring(self):
+        """Adiciona scripts para monitorar interações do usuário com elementos"""
+        # Script para monitorar cliques e interações
+        interaction_script = """
+        (function() {
+            // Armazenar elementos com os quais o usuário interagiu
+            window.interactedElements = new Set();
+            
+            // Função para adicionar elemento à lista de interações
+            function addInteraction(element) {
+                window.interactedElements.add(element);
+            }
+            
+            // Monitorar cliques
+            document.addEventListener('click', function(e) {
+                addInteraction(e.target);
+            }, true);
+            
+            // Monitorar inputs
+            document.addEventListener('input', function(e) {
+                addInteraction(e.target);
+            }, true);
+            
+            // Monitorar mudanças em selects
+            document.addEventListener('change', function(e) {
+                addInteraction(e.target);
+            }, true);
+            
+            // Monitorar foco em elementos
+            document.addEventListener('focus', function(e) {
+                addInteraction(e.target);
+            }, true);
+            
+            // Monitorar submissões de formulários
+            document.addEventListener('submit', function(e) {
+                addInteraction(e.target);
+                // Também adicionar os elementos do formulário
+                if (e.target.tagName === 'FORM') {
+                    Array.from(e.target.elements).forEach(addInteraction);
+                }
+            }, true);
+        })();
+        """
+        
+        # Executar o script após carregar cada página
+        self.driver.execute_script(interaction_script)
+
     def login(self):
         """Realiza login no sistema"""
         try:
             self.driver.get(URL)
             print(f"Acessando {URL}...")
             
-            # Aguardar página de login carregar
+            # Aguardar página de login carregar com os mesmos seletores do playwright
             WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.ID, "email"))
+                EC.presence_of_element_located((By.XPATH, "//input[@id='email']"))
             )
             
-            # Preencher credenciais
-            self.driver.find_element(By.ID, "email").send_keys(EMAIL)
-            self.driver.find_element(By.ID, "password").send_keys(PASSWORD)
+            # Preencher credenciais usando os mesmos seletores do playwright
+            self.driver.find_element(By.XPATH, "//input[@id='email']").send_keys(EMAIL)
+            self.driver.find_element(By.XPATH, "//input[@id='xenha']").send_keys(PASSWORD)
             
             # Clicar no botão de login
-            self.driver.find_element(By.XPATH, "//button[@type='submit']").click()
+            self.driver.find_element(By.XPATH, "//input[@id='enviar']").click()
             
             # Aguardar login ser concluído
-            WebDriverWait(self.driver, 10).until(
-                EC.url_contains("dashboard")
-            )
-            
-            print("Login realizado com sucesso!")
-            return True
+            try:
+                # Esperar que a página termine de carregar
+                WebDriverWait(self.driver, 10).until(
+                    lambda driver: driver.current_url != URL
+                )
+                print("Login realizado com sucesso!")
+                return True
+            except Exception as e:
+                print(f"Aviso: {str(e)}")
+                # Mesmo com erro, continuar se a página mudou
+                if self.driver.current_url != URL:
+                    print("Página mudou após tentativa de login, continuando...")
+                    return True
+                return False
         except Exception as e:
             print(f"Erro ao fazer login: {str(e)}")
             return False
     
     def track_elements(self):
-        """Rastreia elementos da página atual"""
+        """Rastreia elementos com os quais o usuário interagiu na página atual"""
         try:
             # Obter URL atual
             current_url = self.driver.current_url
             page_title = self.driver.title
             
-            # Se mudou de página, atualizar
+            # Se mudou de página, atualizar e reiniciar o monitoramento
             if current_url != self.current_page:
                 self.current_page = current_url
                 print(f"\nRastreando elementos da página: {page_title} ({current_url})")
+                # Reiniciar o script de monitoramento na nova página
+                self.add_interaction_monitoring()
+            
+            # Obter elementos com os quais o usuário interagiu
+            interacted_elements_js = """
+            return Array.from(window.interactedElements || new Set());
+            """
+            
+            try:
+                # Tentar obter os elementos interagidos
+                interacted_elements = self.driver.execute_script(interacted_elements_js)
+            except:
+                # Se falhar, pode ser porque a página foi recarregada
+                self.add_interaction_monitoring()
+                interacted_elements = []
+            
+            if not interacted_elements:
+                # Se não houver elementos interagidos, não fazer nada
+                return
             
             # Rastrear elementos interativos
             elements_data = {
@@ -94,97 +172,55 @@ class ElementTracker:
                 "elements": []
             }
             
-            # Rastrear botões
-            buttons = self.driver.find_elements(By.TAG_NAME, "button")
-            for button in buttons:
+            # Processar cada elemento interagido
+            for i, element in enumerate(interacted_elements):
                 try:
+                    # Obter informações do elemento
+                    element_type = self.driver.execute_script("return arguments[0].tagName.toLowerCase();", element)
+                    element_id = self.driver.execute_script("return arguments[0].id;", element)
+                    element_name = self.driver.execute_script("return arguments[0].name;", element)
+                    element_class = self.driver.execute_script("return arguments[0].className;", element)
+                    element_text = self.driver.execute_script("return arguments[0].textContent;", element)
+                    
+                    # Criar dados do elemento
                     element_data = {
-                        "type": "button",
-                        "text": button.text.strip(),
-                        "id": button.get_attribute("id"),
-                        "name": button.get_attribute("name"),
-                        "class": button.get_attribute("class"),
-                        "xpath": self.get_xpath(button)
+                        "type": element_type,
+                        "text": element_text.strip() if element_text else "",
+                        "id": element_id,
+                        "name": element_name,
+                        "class": element_class,
+                        "xpath": self.get_xpath(element)
                     }
+                    
+                    # Adicionar atributos específicos com base no tipo
+                    if element_type == "input":
+                        element_data["input_type"] = self.driver.execute_script("return arguments[0].type;", element)
+                        element_data["placeholder"] = self.driver.execute_script("return arguments[0].placeholder;", element)
+                    elif element_type == "a":
+                        element_data["href"] = self.driver.execute_script("return arguments[0].href;", element)
+                    elif element_type == "label":
+                        element_data["for"] = self.driver.execute_script("return arguments[0].htmlFor;", element)
+                    
+                    # Adicionar à lista de elementos rastreados
                     elements_data["elements"].append(element_data)
-                except:
-                    pass
+                except Exception as e:
+                    print(f"Erro ao processar elemento {i}: {str(e)}")
             
-            # Rastrear inputs
-            inputs = self.driver.find_elements(By.TAG_NAME, "input")
-            for input_elem in inputs:
-                try:
-                    element_data = {
-                        "type": "input",
-                        "input_type": input_elem.get_attribute("type"),
-                        "id": input_elem.get_attribute("id"),
-                        "name": input_elem.get_attribute("name"),
-                        "placeholder": input_elem.get_attribute("placeholder"),
-                        "class": input_elem.get_attribute("class"),
-                        "xpath": self.get_xpath(input_elem)
-                    }
-                    elements_data["elements"].append(element_data)
-                except:
-                    pass
-            
-            # Rastrear selects
-            selects = self.driver.find_elements(By.TAG_NAME, "select")
-            for select in selects:
-                try:
-                    element_data = {
-                        "type": "select",
-                        "id": select.get_attribute("id"),
-                        "name": select.get_attribute("name"),
-                        "class": select.get_attribute("class"),
-                        "xpath": self.get_xpath(select)
-                    }
-                    elements_data["elements"].append(element_data)
-                except:
-                    pass
-            
-            # Rastrear links
-            links = self.driver.find_elements(By.TAG_NAME, "a")
-            for link in links:
-                try:
-                    element_data = {
-                        "type": "link",
-                        "text": link.text.strip(),
-                        "href": link.get_attribute("href"),
-                        "id": link.get_attribute("id"),
-                        "class": link.get_attribute("class"),
-                        "xpath": self.get_xpath(link)
-                    }
-                    elements_data["elements"].append(element_data)
-                except:
-                    pass
-            
-            # Rastrear labels (podem ser úteis para identificar campos)
-            labels = self.driver.find_elements(By.TAG_NAME, "label")
-            for label in labels:
-                try:
-                    element_data = {
-                        "type": "label",
-                        "text": label.text.strip(),
-                        "for": label.get_attribute("for"),
-                        "id": label.get_attribute("id"),
-                        "class": label.get_attribute("class"),
-                        "xpath": self.get_xpath(label)
-                    }
-                    elements_data["elements"].append(element_data)
-                except:
-                    pass
+            # Limpar os elementos interagidos no JavaScript
+            self.driver.execute_script("window.interactedElements = new Set();")
             
             # Adicionar à lista de elementos rastreados
-            self.tracked_elements.append(elements_data)
-            
-            # Salvar elementos rastreados
-            self.save_tracked_elements()
-            
-            print(f"Rastreados {len(elements_data['elements'])} elementos")
+            if elements_data["elements"]:
+                self.tracked_elements.append(elements_data)
+                
+                # Salvar elementos rastreados
+                self.save_tracked_elements()
+                
+                print(f"Rastreados {len(elements_data['elements'])} elementos interagidos")
             
         except Exception as e:
             print(f"Erro ao rastrear elementos: {str(e)}")
-    
+
     def get_xpath(self, element):
         """Tenta obter o XPath do elemento"""
         try:

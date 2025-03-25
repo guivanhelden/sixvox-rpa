@@ -1,0 +1,1740 @@
+[
+  {
+    "timestamp": "2025-03-24 23:57:49",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "DiretoAFFIX (70)ALLCARE (62)ALTER (77)BEM BENEFICIOS (68)CORPORE (65)DIVICOM (63)HEBROM (66)HUB CARE (83)HUB HEALTH (81)IMPETO (78)LEXUS (82)MAXMED (69)MOUNT HERMON (75)MUITO MAIS SAUDE (67)NACIONAL SAUDE (79)NUNES & GROSSI (71)PLURAL (73)PRA VOCE (76)QUALICORP (61)SAFE LIFE (72)SUPERMED (80)TEC SAUDE (74)VOCE CLUBE (64)",
+        "id": "cod_administradora",
+        "name": "cod_administradora",
+        "class": "",
+        "xpath": "//*[@id=\"cod_administradora\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:57:51",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "SelecioneALICE (277)ALLIANZ (185)AMENO (200)AMEPLAN (190)AMIL (167)AMPLA SAÚDE (247)AMR - OESTE (222)ANA COSTA SAUDE (226)ASSIM SAUDE (201)ATIVIA SAUDE (249)AURORA SAUDE (272)BIO SAUDE (191)BIO VIDA (209)BLUE (261)BLUE MED (202)BRADESCO (170)CARE PLUS (236)CCG HAPVIDA NOTREDAMEN INTERMEDICA (267)CEMERU GRUPO SAUDE (232)CENTRAL NACIONAL UNIMED (192)CLASSES LABORIOSAS (216)CLINIPAN HAPVIDA NDI (266)COOPUS PLANOS DE SAUDE (215)CRUZ AZUL SAUDE (218)CUIDAR ME (238)DENTAL PAR (227)DENTAL PLUS (211)GNDI SUL - NÃO USAR (235)GO CARE SAUDE (237)GOLDEN CROSS (221)GOLDEN CROSS RIO (243)GREEN LINE (193)GS GARANTIA (203)HAPVIDA (256)HBC SAUDE (228)HEALTH 4 PET (181)HEALTH SANTARIS (225)KIPP SAUDE (234)LEADER (223)LEVE MED (275)LEVE SAUDE (278)LIVRI (264)MAIS DENTAL (262)MEDICAL HEALTH (230)MEDSENIOR (254)MED TOUR (204)MET LIFE (220)NOTREDAME INTERMEDICA (169)ODONTOPREV (241)OESTE SAUDE (194)OMINT (187)PARANA CLINICAS (246)PET LOVE (263)PLENA SAUDE (195)PORTO SEGURO (188)PORTO SEGURO OCUPACIONAL (250)PREVENT SENIOR (212)PROASA - ADVENTIST HEALTH (273)QSAÚDE (231)SAGRADA FAMILIA (269)SAMED (206)SAMI (242)SANTA CASA DE MAUA (239)SANTA CASA DE SAO JOSE DOS CAMPOS (274)SANTA CASA DE SAUDE SANTOS (224)SANTA HELENA (196)SAO CAMILO (270)SÃO CRISTOVÃO (197)SÃO FRANCISCO (205)SAO FRANCISCO VIDA (268)SAO MIGUEL SAUDE (219)SAUDE BENEFICIENCIA (257)SAÚDE SIM (233)SBC SAÚDE (217)SB SAUDE (276)SMILE - DF (240)SOBAM (253)SOMPO (189)SULAMÉRICA (182)TEMPO MED (280)TOTAL MED CARE (214)TRASMONTANO (198)UNICA SAUDE (245)UNI HOSP (207)UNIMED BANDEIRANTES(279)UNIMED BH (260)UNIMED CUIABA (265)UNIMED FESP (213)UNIMED GUARULHOS (199)UNIMED JUNDIAI (251)UNIMED RECIFE (252)UNIMED SANTOS (255)UNIMED SAO JOSE DOS CAMPOS (258)UNIMED SEGUROS (229)UNIMED SUDOESTE (271)USISAUDE (248)VERA CRUZ (259)VITALLIS (208)",
+        "id": "cod_operadora",
+        "name": "cod_operadora",
+        "class": "",
+        "xpath": "//*[@id=\"cod_operadora\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:57:55",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "SelecioneALICE (277)ALLIANZ (185)AMENO (200)AMEPLAN (190)AMIL (167)AMPLA SAÚDE (247)AMR - OESTE (222)ANA COSTA SAUDE (226)ASSIM SAUDE (201)ATIVIA SAUDE (249)AURORA SAUDE (272)BIO SAUDE (191)BIO VIDA (209)BLUE (261)BLUE MED (202)BRADESCO (170)CARE PLUS (236)CCG HAPVIDA NOTREDAMEN INTERMEDICA (267)CEMERU GRUPO SAUDE (232)CENTRAL NACIONAL UNIMED (192)CLASSES LABORIOSAS (216)CLINIPAN HAPVIDA NDI (266)COOPUS PLANOS DE SAUDE (215)CRUZ AZUL SAUDE (218)CUIDAR ME (238)DENTAL PAR (227)DENTAL PLUS (211)GNDI SUL - NÃO USAR (235)GO CARE SAUDE (237)GOLDEN CROSS (221)GOLDEN CROSS RIO (243)GREEN LINE (193)GS GARANTIA (203)HAPVIDA (256)HBC SAUDE (228)HEALTH 4 PET (181)HEALTH SANTARIS (225)KIPP SAUDE (234)LEADER (223)LEVE MED (275)LEVE SAUDE (278)LIVRI (264)MAIS DENTAL (262)MEDICAL HEALTH (230)MEDSENIOR (254)MED TOUR (204)MET LIFE (220)NOTREDAME INTERMEDICA (169)ODONTOPREV (241)OESTE SAUDE (194)OMINT (187)PARANA CLINICAS (246)PET LOVE (263)PLENA SAUDE (195)PORTO SEGURO (188)PORTO SEGURO OCUPACIONAL (250)PREVENT SENIOR (212)PROASA - ADVENTIST HEALTH (273)QSAÚDE (231)SAGRADA FAMILIA (269)SAMED (206)SAMI (242)SANTA CASA DE MAUA (239)SANTA CASA DE SAO JOSE DOS CAMPOS (274)SANTA CASA DE SAUDE SANTOS (224)SANTA HELENA (196)SAO CAMILO (270)SÃO CRISTOVÃO (197)SÃO FRANCISCO (205)SAO FRANCISCO VIDA (268)SAO MIGUEL SAUDE (219)SAUDE BENEFICIENCIA (257)SAÚDE SIM (233)SBC SAÚDE (217)SB SAUDE (276)SMILE - DF (240)SOBAM (253)SOMPO (189)SULAMÉRICA (182)TEMPO MED (280)TOTAL MED CARE (214)TRASMONTANO (198)UNICA SAUDE (245)UNI HOSP (207)UNIMED BANDEIRANTES(279)UNIMED BH (260)UNIMED CUIABA (265)UNIMED FESP (213)UNIMED GUARULHOS (199)UNIMED JUNDIAI (251)UNIMED RECIFE (252)UNIMED SANTOS (255)UNIMED SAO JOSE DOS CAMPOS (258)UNIMED SEGUROS (229)UNIMED SUDOESTE (271)USISAUDE (248)VERA CRUZ (259)VITALLIS (208)",
+        "id": "cod_operadora",
+        "name": "cod_operadora",
+        "class": "",
+        "xpath": "//*[@id=\"cod_operadora\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:57:57",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "selecione a modalidade...PME ODONTO - ATÉ 29 VIDAS (212)PME SAÚDE - ACIMA 30 VIDAS (165)PME SAÚDE - ATÉ 29 VIDAS (163)PME SAÚDE PORTE I - MULTINOTAS 1 (207)PME SAÚDE PORTE I  - MULTINOTAS 2 (208)PME SAÚDE PORTE I - MULTINOTAS 3 (198)",
+        "id": "cod_diferencial",
+        "name": "cod_diferencial",
+        "class": "",
+        "xpath": "//*[@id=\"cod_diferencial\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:57:59",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "selecione a modalidade...PME ODONTO - ATÉ 29 VIDAS (212)PME SAÚDE - ACIMA 30 VIDAS (165)PME SAÚDE - ATÉ 29 VIDAS (163)PME SAÚDE PORTE I - MULTINOTAS 1 (207)PME SAÚDE PORTE I  - MULTINOTAS 2 (208)PME SAÚDE PORTE I - MULTINOTAS 3 (198)",
+        "id": "cod_diferencial",
+        "name": "cod_diferencial",
+        "class": "",
+        "xpath": "//*[@id=\"cod_diferencial\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:01",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Amil IndividualLinha AmilLinha FácilLinha OneOdonto P.F",
+        "id": "cod_plano",
+        "name": "cod_plano",
+        "class": "",
+        "xpath": "//*[@id=\"cod_plano\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:03",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Amil IndividualLinha AmilLinha FácilLinha OneOdonto P.F",
+        "id": "cod_plano",
+        "name": "cod_plano",
+        "class": "",
+        "xpath": "//*[@id=\"cod_plano\"]"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "numero_proposta",
+        "name": "numero_proposta",
+        "class": "required",
+        "xpath": "//*[@id=\"numero_proposta\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:05",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "numero_proposta",
+        "name": "numero_proposta",
+        "class": "required",
+        "xpath": "//*[@id=\"numero_proposta\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:08",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "numero_proposta",
+        "name": "numero_proposta",
+        "class": "required",
+        "xpath": "//*[@id=\"numero_proposta\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "cnpj",
+        "name": "cnpj",
+        "class": "required",
+        "xpath": "//*[@id=\"cnpj\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:10",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cnpj",
+        "name": "cnpj",
+        "class": "required",
+        "xpath": "//*[@id=\"cnpj\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:12",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cnpj",
+        "name": "cnpj",
+        "class": "required",
+        "xpath": "//*[@id=\"cnpj\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:14",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cnpj",
+        "name": "cnpj",
+        "class": "required",
+        "xpath": "//*[@id=\"cnpj\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:16",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cnpj",
+        "name": "cnpj",
+        "class": "required",
+        "xpath": "//*[@id=\"cnpj\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "razao_social",
+        "name": "razao_social",
+        "class": "required",
+        "xpath": "//*[@id=\"razao_social\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:18",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "razao_social",
+        "name": "razao_social",
+        "class": "required",
+        "xpath": "//*[@id=\"razao_social\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:20",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "razao_social",
+        "name": "razao_social",
+        "class": "required",
+        "xpath": "//*[@id=\"razao_social\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:22",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "razao_social",
+        "name": "razao_social",
+        "class": "required",
+        "xpath": "//*[@id=\"razao_social\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:24",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "razao_social",
+        "name": "razao_social",
+        "class": "required",
+        "xpath": "//*[@id=\"razao_social\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "cod_empresa_principal",
+        "name": "cod_empresa_principal",
+        "class": "",
+        "xpath": "//*[@id=\"cod_empresa_principal\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:26",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "NovoPré-cadastro",
+        "id": "cod_status",
+        "name": "cod_status",
+        "class": "",
+        "xpath": "//*[@id=\"cod_status\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:28",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "h3",
+        "text": "Venda",
+        "id": "ui-accordion-accordion-header-1",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-state-focus ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-1\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:30",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "name_corretor",
+        "name": "name_corretor",
+        "class": "ui-autocomplete-input",
+        "xpath": "//*[@id=\"name_corretor\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:32",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "name_corretor",
+        "name": "name_corretor",
+        "class": "ui-autocomplete-input",
+        "xpath": "//*[@id=\"name_corretor\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:34",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "name_corretor",
+        "name": "name_corretor",
+        "class": "ui-autocomplete-input",
+        "xpath": "//*[@id=\"name_corretor\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:36",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "a",
+        "text": "4049 - Monica Mattos Takazaki (4049)",
+        "id": "ui-id-7",
+        "name": "",
+        "class": "ui-corner-all",
+        "xpath": "//*[@id=\"ui-id-7\"]",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:38",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "name_corretor",
+        "name": "name_corretor",
+        "class": "ui-autocomplete-input",
+        "xpath": "//*[@id=\"name_corretor\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "select",
+        "text": "Selecione...CLTDIAMONDMAXIMUSPLATINUM",
+        "id": "cod_corretor_tipo",
+        "name": "cod_corretor_tipo",
+        "class": "",
+        "xpath": "//*[@id=\"cod_corretor_tipo\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:44",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Selecione ...DiretoABIAFFINITYBEPLUS BRAZIL HEALTHCASA DO CORRETORCENTURYDPWHITEFORMATTOFUTURA UNIÃOINNOVA - HUB CARELEMACORPLOOK LIFEMVLIFEPUBLIC APRILRUMO SAUDEUNISAUDEVIVA SAÚDE",
+        "id": "cod_distribuidora",
+        "name": "cod_distribuidora",
+        "class": "",
+        "xpath": "//*[@id=\"cod_distribuidora\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:46",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "NaoSim",
+        "id": "carencia_compra",
+        "name": "carencia_compra",
+        "class": "",
+        "xpath": "//*[@id=\"carencia_compra\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:48",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "NaoSim",
+        "id": "carencia_compra",
+        "name": "carencia_compra",
+        "class": "",
+        "xpath": "//*[@id=\"carencia_compra\"]"
+      },
+      {
+        "type": "div",
+        "text": "Operadora de origemSelecioneALICE (277)ALLIANZ (185)AMENO (200)AMEPLAN (190)AMIL (167)AMPLA SAÚDE (247)AMR - OESTE (222)ANA COSTA SAUDE (226)ASSIM SAUDE (201)ATIVIA SAUDE (249)AURORA SAUDE (272)BIO SAUDE (191)BIO VIDA (209)BLUE (261)BLUE MED (202)BRADESCO (170)CARE PLUS (236)CCG HAPVIDA NOTREDAMEN INTERMEDICA (267)CEMERU GRUPO SAUDE (232)CENTRAL NACIONAL UNIMED (192)CLASSES LABORIOSAS (216)CLINIPAN HAPVIDA NDI (266)COOPUS PLANOS DE SAUDE (215)CRUZ AZUL SAUDE (218)CUIDAR ME (238)DENTAL PAR (227)DENTAL PLUS (211)GNDI SUL - NÃO USAR (235)GO CARE SAUDE (237)GOLDEN CROSS (221)GOLDEN CROSS RIO (243)GREEN LINE (193)GS GARANTIA (203)HAPVIDA (256)HBC SAUDE (228)HEALTH 4 PET (181)HEALTH SANTARIS (225)KIPP SAUDE (234)LEADER (223)LEVE MED (275)LEVE SAUDE (278)LIVRI (264)MAIS DENTAL (262)MEDICAL HEALTH (230)MEDSENIOR (254)MED TOUR (204)MET LIFE (220)NOTREDAME INTERMEDICA (169)ODONTOPREV (241)OESTE SAUDE (194)OMINT (187)PARANA CLINICAS (246)PET LOVE (263)PLENA SAUDE (195)PORTO SEGURO (188)PORTO SEGURO OCUPACIONAL (250)PREVENT SENIOR (212)PROASA - ADVENTIST HEALTH (273)QSAÚDE (231)SAGRADA FAMILIA (269)SAMED (206)SAMI (242)SANTA CASA DE MAUA (239)SANTA CASA DE SAO JOSE DOS CAMPOS (274)SANTA CASA DE SAUDE SANTOS (224)SANTA HELENA (196)SAO CAMILO (270)SÃO CRISTOVÃO (197)SÃO FRANCISCO (205)SAO FRANCISCO VIDA (268)SAO MIGUEL SAUDE (219)SAUDE BENEFICIENCIA (257)SAÚDE SIM (233)SBC SAÚDE (217)SB SAUDE (276)SMILE - DF (240)SOBAM (253)SOMPO (189)SULAMÉRICA (182)TEMPO MED (280)TOTAL MED CARE (214)TRASMONTANO (198)UNICA SAUDE (245)UNI HOSP (207)UNIMED BANDEIRANTES(279)UNIMED BH (260)UNIMED CUIABA (265)UNIMED FESP (213)UNIMED GUARULHOS (199)UNIMED JUNDIAI (251)UNIMED RECIFE (252)UNIMED SANTOS (255)UNIMED SAO JOSE DOS CAMPOS (258)UNIMED SEGUROS (229)UNIMED SUDOESTE (271)USISAUDE (248)VERA CRUZ (259)VITALLIS (208)",
+        "id": "",
+        "name": null,
+        "class": "nrow",
+        "xpath": "/html/body/div/form/div/div[2]/div[2]/div/div[11]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:50",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "SelecioneALICE (277)ALLIANZ (185)AMENO (200)AMEPLAN (190)AMIL (167)AMPLA SAÚDE (247)AMR - OESTE (222)ANA COSTA SAUDE (226)ASSIM SAUDE (201)ATIVIA SAUDE (249)AURORA SAUDE (272)BIO SAUDE (191)BIO VIDA (209)BLUE (261)BLUE MED (202)BRADESCO (170)CARE PLUS (236)CCG HAPVIDA NOTREDAMEN INTERMEDICA (267)CEMERU GRUPO SAUDE (232)CENTRAL NACIONAL UNIMED (192)CLASSES LABORIOSAS (216)CLINIPAN HAPVIDA NDI (266)COOPUS PLANOS DE SAUDE (215)CRUZ AZUL SAUDE (218)CUIDAR ME (238)DENTAL PAR (227)DENTAL PLUS (211)GNDI SUL - NÃO USAR (235)GO CARE SAUDE (237)GOLDEN CROSS (221)GOLDEN CROSS RIO (243)GREEN LINE (193)GS GARANTIA (203)HAPVIDA (256)HBC SAUDE (228)HEALTH 4 PET (181)HEALTH SANTARIS (225)KIPP SAUDE (234)LEADER (223)LEVE MED (275)LEVE SAUDE (278)LIVRI (264)MAIS DENTAL (262)MEDICAL HEALTH (230)MEDSENIOR (254)MED TOUR (204)MET LIFE (220)NOTREDAME INTERMEDICA (169)ODONTOPREV (241)OESTE SAUDE (194)OMINT (187)PARANA CLINICAS (246)PET LOVE (263)PLENA SAUDE (195)PORTO SEGURO (188)PORTO SEGURO OCUPACIONAL (250)PREVENT SENIOR (212)PROASA - ADVENTIST HEALTH (273)QSAÚDE (231)SAGRADA FAMILIA (269)SAMED (206)SAMI (242)SANTA CASA DE MAUA (239)SANTA CASA DE SAO JOSE DOS CAMPOS (274)SANTA CASA DE SAUDE SANTOS (224)SANTA HELENA (196)SAO CAMILO (270)SÃO CRISTOVÃO (197)SÃO FRANCISCO (205)SAO FRANCISCO VIDA (268)SAO MIGUEL SAUDE (219)SAUDE BENEFICIENCIA (257)SAÚDE SIM (233)SBC SAÚDE (217)SB SAUDE (276)SMILE - DF (240)SOBAM (253)SOMPO (189)SULAMÉRICA (182)TEMPO MED (280)TOTAL MED CARE (214)TRASMONTANO (198)UNICA SAUDE (245)UNI HOSP (207)UNIMED BANDEIRANTES(279)UNIMED BH (260)UNIMED CUIABA (265)UNIMED FESP (213)UNIMED GUARULHOS (199)UNIMED JUNDIAI (251)UNIMED RECIFE (252)UNIMED SANTOS (255)UNIMED SAO JOSE DOS CAMPOS (258)UNIMED SEGUROS (229)UNIMED SUDOESTE (271)USISAUDE (248)VERA CRUZ (259)VITALLIS (208)",
+        "id": "carencia_cod_operadora",
+        "name": "carencia_cod_operadora",
+        "class": "",
+        "xpath": "//*[@id=\"carencia_cod_operadora\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:52",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "h3",
+        "text": "Datas",
+        "id": "ui-accordion-accordion-header-2",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-state-focus ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-2\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:54",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "data_venda",
+        "name": "data_venda",
+        "class": "required hasDatepicker",
+        "xpath": "//*[@id=\"data_venda\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:58:59",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "a",
+        "text": "17",
+        "id": "",
+        "name": "",
+        "class": "ui-state-default",
+        "xpath": "/html/body/div[2]/table/tbody/tr[4]/td[2]/a",
+        "href": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php#"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:01",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "data_cadastro",
+        "name": "data_cadastro",
+        "class": "required hasDatepicker",
+        "xpath": "//*[@id=\"data_cadastro\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "a",
+        "text": "5",
+        "id": "",
+        "name": "",
+        "class": "ui-state-default",
+        "xpath": "/html/body/div[2]/table/tbody/tr[2]/td[4]/a",
+        "href": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php#"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:03",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "data_vigencia",
+        "name": "data_vigencia",
+        "class": "required hasDatepicker",
+        "xpath": "//*[@id=\"data_vigencia\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "a",
+        "text": "19",
+        "id": "",
+        "name": "",
+        "class": "ui-state-default",
+        "xpath": "/html/body/div[2]/table/tbody/tr[4]/td[4]/a",
+        "href": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php#"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:05",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Selecione ...JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembro",
+        "id": "mes_aniversario",
+        "name": "mes_aniversario",
+        "class": "",
+        "xpath": "//*[@id=\"mes_aniversario\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:07",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "data_entrega",
+        "name": "data_entrega",
+        "class": "hasDatepicker",
+        "xpath": "//*[@id=\"data_entrega\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:09",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "a",
+        "text": "1",
+        "id": "",
+        "name": "",
+        "class": "ui-state-default",
+        "xpath": "/html/body/div[2]/table/tbody/tr/td[7]/a",
+        "href": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php#"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:11",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "div",
+        "text": "Data da Venda\n\t\t\t\t\tVencimento\n\t\t\t\t\tData do Cadastro\n\t\t\t\t\tData da Vigência\n                \t\t\tAniversário ApóliceSelecione ...JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembro\n                                            \n\t\t\t\t\tData da Entrega/operadora\n\t\t\t\t\tInício da movimentação01020304050607080910111213141516171819202122232425262728293031\n\t\t\t\t\tFim da movimentação01020304050607080910111213141516171819202122232425262728293031\n\t\t\t\t\tData de cancelamento",
+        "id": "ui-accordion-accordion-panel-2",
+        "name": null,
+        "class": "ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active",
+        "xpath": "//*[@id=\"ui-accordion-accordion-panel-2\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:13",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "h3",
+        "text": "Valores",
+        "id": "ui-accordion-accordion-header-3",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-3\"]"
+      },
+      {
+        "type": "td",
+        "text": "Qtd. Vidas",
+        "id": "",
+        "name": null,
+        "class": "",
+        "xpath": "/html/body/div/form/div/div[2]/div[4]/div/div/div/table/tbody/tr[2]/td"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:15",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "vidas_saude",
+        "name": "vidas_saude",
+        "class": " number-only required ",
+        "xpath": "//*[@id=\"vidas_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:17",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "vidas_saude",
+        "name": "vidas_saude",
+        "class": " number-only required ",
+        "xpath": "//*[@id=\"vidas_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_saude",
+        "name": "mensalidade_normal_saude",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:19",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_saude",
+        "name": "mensalidade_normal_saude",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:21",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_saude",
+        "name": "mensalidade_normal_saude",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:23",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_saude",
+        "name": "mensalidade_normal_saude",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "taxa_saude",
+        "name": "taxa_saude",
+        "class": "number-only taxa",
+        "xpath": "//*[@id=\"taxa_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "iof_saude",
+        "name": "iof_saude",
+        "class": "number-only taxa",
+        "xpath": "//*[@id=\"iof_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:25",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "iof_saude",
+        "name": "iof_saude",
+        "class": "number-only taxa",
+        "xpath": "//*[@id=\"iof_saude\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "vidas_dental",
+        "name": "vidas_dental",
+        "class": "number-only required",
+        "xpath": "//*[@id=\"vidas_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:27",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "vidas_dental",
+        "name": "vidas_dental",
+        "class": "number-only required",
+        "xpath": "//*[@id=\"vidas_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_dental",
+        "name": "mensalidade_normal_dental",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:31",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "mensalidade_normal_dental",
+        "name": "mensalidade_normal_dental",
+        "class": "number-only  produto required",
+        "xpath": "//*[@id=\"mensalidade_normal_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "taxa_dental",
+        "name": "taxa_dental",
+        "class": "number-only  taxa",
+        "xpath": "//*[@id=\"taxa_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:33",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "taxa_dental",
+        "name": "taxa_dental",
+        "class": "number-only  taxa",
+        "xpath": "//*[@id=\"taxa_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "iof_dental",
+        "name": "iof_dental",
+        "class": "number-only taxa",
+        "xpath": "//*[@id=\"iof_dental\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "aditivo[16]",
+        "name": "aditivo[16]",
+        "class": "number-only produto",
+        "xpath": "//*[@id=\"aditivo[16]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:37",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Selecione a opção...Boleto pago pelo Corretor/clienteBoleto pago pela VAN HELDEN CORRETORA  (não gera comissão na confirmação)",
+        "id": "comissao_primeira",
+        "name": "comissao_primeira",
+        "class": "",
+        "xpath": "//*[@id=\"comissao_primeira\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:43",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Selecione a opção...Boleto pago pelo Corretor/clienteBoleto pago pela VAN HELDEN CORRETORA  (não gera comissão na confirmação)",
+        "id": "comissao_primeira",
+        "name": "comissao_primeira",
+        "class": "",
+        "xpath": "//*[@id=\"comissao_primeira\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:45",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "ImediatamenteNa confirmação da primeira",
+        "id": "cobrar_taxa",
+        "name": "cobrar_taxa",
+        "class": "",
+        "xpath": "//*[@id=\"cobrar_taxa\"]"
+      },
+      {
+        "type": "select",
+        "text": "ImediatamenteNa confirmação da primeira",
+        "id": "cobrar_imposto",
+        "name": "cobrar_imposto",
+        "class": "",
+        "xpath": "//*[@id=\"cobrar_imposto\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:50",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "h3",
+        "text": "Empresa",
+        "id": "ui-accordion-accordion-header-4",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-state-focus ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-4\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:54",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "nome_fantasia",
+        "name": "nome_fantasia",
+        "class": "",
+        "xpath": "//*[@id=\"nome_fantasia\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:56",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "nome_fantasia",
+        "name": "nome_fantasia",
+        "class": "",
+        "xpath": "//*[@id=\"nome_fantasia\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-24 23:59:58",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "nome_fantasia",
+        "name": "nome_fantasia",
+        "class": "",
+        "xpath": "//*[@id=\"nome_fantasia\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "porte",
+        "name": "porte",
+        "class": "",
+        "xpath": "//*[@id=\"porte\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:00",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "porte",
+        "name": "porte",
+        "class": "",
+        "xpath": "//*[@id=\"porte\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "inscricao_estadual",
+        "name": "inscricao_estadual",
+        "class": "",
+        "xpath": "//*[@id=\"inscricao_estadual\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:02",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "inscricao_estadual",
+        "name": "inscricao_estadual",
+        "class": "",
+        "xpath": "//*[@id=\"inscricao_estadual\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "site",
+        "name": "site",
+        "class": "",
+        "xpath": "//*[@id=\"site\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:04",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "site",
+        "name": "site",
+        "class": "",
+        "xpath": "//*[@id=\"site\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:08",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "site",
+        "name": "site",
+        "class": "",
+        "xpath": "//*[@id=\"site\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_nome",
+        "name": "contato_nome",
+        "class": "",
+        "xpath": "//*[@id=\"contato_nome\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_ddd",
+        "name": "contato_ddd",
+        "class": "",
+        "xpath": "//*[@id=\"contato_ddd\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:10",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_ddd",
+        "name": "contato_ddd",
+        "class": "",
+        "xpath": "//*[@id=\"contato_ddd\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_tel",
+        "name": "contato_tel",
+        "class": "",
+        "xpath": "//*[@id=\"contato_tel\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:12",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_tel",
+        "name": "contato_tel",
+        "class": "",
+        "xpath": "//*[@id=\"contato_tel\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:14",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_tel",
+        "name": "contato_tel",
+        "class": "",
+        "xpath": "//*[@id=\"contato_tel\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_email",
+        "name": "contato_email",
+        "class": "",
+        "xpath": "//*[@id=\"contato_email\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:16",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_email",
+        "name": "contato_email",
+        "class": "",
+        "xpath": "//*[@id=\"contato_email\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:18",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "contato_email",
+        "name": "contato_email",
+        "class": "",
+        "xpath": "//*[@id=\"contato_email\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "cep",
+        "name": "cep",
+        "class": "",
+        "xpath": "//*[@id=\"cep\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:20",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cep",
+        "name": "cep",
+        "class": "",
+        "xpath": "//*[@id=\"cep\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:22",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "cep",
+        "name": "cep",
+        "class": "",
+        "xpath": "//*[@id=\"cep\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "endereco_empresa",
+        "name": "endereco_empresa",
+        "class": "",
+        "xpath": "//*[@id=\"endereco_empresa\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:24",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "div",
+        "text": "Número",
+        "id": "",
+        "name": null,
+        "class": "nrow",
+        "xpath": "/html/body/div/form/div/div[2]/div[5]/div/div[12]"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "endereco_numero",
+        "name": "endereco_numero",
+        "class": "",
+        "xpath": "//*[@id=\"endereco_numero\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:26",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "endereco_numero",
+        "name": "endereco_numero",
+        "class": "",
+        "xpath": "//*[@id=\"endereco_numero\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "div",
+        "text": "Complemento do Endereço",
+        "id": "",
+        "name": null,
+        "class": "nrow",
+        "xpath": "/html/body/div/form/div/div[2]/div[5]/div/div[13]"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "endereco_complemento",
+        "name": "endereco_complemento",
+        "class": "",
+        "xpath": "//*[@id=\"endereco_complemento\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:28",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "endereco_complemento",
+        "name": "endereco_complemento",
+        "class": "",
+        "xpath": "//*[@id=\"endereco_complemento\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "h3",
+        "text": "Relacionamento",
+        "id": "ui-accordion-accordion-header-5",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-state-focus ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-5\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:32",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "h3",
+        "text": "Titular/Dependentes",
+        "id": "ui-accordion-accordion-header-6",
+        "name": null,
+        "class": "ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top",
+        "xpath": "//*[@id=\"ui-accordion-accordion-header-6\"]"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "incluir_titular",
+        "name": "",
+        "class": "",
+        "xpath": "//*[@id=\"incluir_titular\"]",
+        "input_type": "button",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:35",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome[]",
+        "name": "person_nome[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:37",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome[]",
+        "name": "person_nome[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_email[]",
+        "name": "person_email[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_email[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:39",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_email[]",
+        "name": "person_email[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_email[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:41",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_email[]",
+        "name": "person_email[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_email[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "select",
+        "text": "Selecione...Casado(a)Divorciado(a)OutrosSeparado(a)Solteiro(a)Viúvo(a)",
+        "id": "person_cod_estado_civil[]",
+        "name": "person_cod_estado_civil[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cod_estado_civil[]\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:43",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "select",
+        "text": "Selecione...Casado(a)Divorciado(a)OutrosSeparado(a)Solteiro(a)Viúvo(a)",
+        "id": "person_cod_estado_civil[]",
+        "name": "person_cod_estado_civil[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cod_estado_civil[]\"]"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:45",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "div",
+        "text": "SexoSelecione...MasculinoFeminino",
+        "id": "",
+        "name": null,
+        "class": "nrow",
+        "xpath": "/html/body/div/form/div/div[2]/div[7]/div/div/div/div[4]"
+      },
+      {
+        "type": "select",
+        "text": "Selecione...MasculinoFeminino",
+        "id": "person_sexo[]",
+        "name": "person_sexo[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_sexo[]\"]"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_cpf[]",
+        "name": "person_cpf[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cpf[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:47",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nascimento[]",
+        "name": "person_nascimento[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nascimento[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:49",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nascimento[]",
+        "name": "person_nascimento[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nascimento[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:51",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nascimento[]",
+        "name": "person_nascimento[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nascimento[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:53",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nascimento[]",
+        "name": "person_nascimento[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nascimento[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_cpf[]",
+        "name": "person_cpf[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cpf[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:55",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_cpf[]",
+        "name": "person_cpf[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cpf[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:57",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_cpf[]",
+        "name": "person_cpf[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_cpf[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome_mae[]",
+        "name": "person_nome_mae[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome_mae[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:00:59",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome_mae[]",
+        "name": "person_nome_mae[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome_mae[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "type": "button",
+        "text": "Incluir dependente.",
+        "id": "",
+        "name": "",
+        "class": "",
+        "xpath": "/html/body/div/form/div/div[2]/div[7]/div/div/div/div[9]/button"
+      },
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome[]",
+        "name": "person_nome[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-03-25 00:01:01",
+    "url": "https://vhseguro.sixvox.com.br/pf/novo/pj_novo_action.php",
+    "title": "SixVox",
+    "elements": [
+      {
+        "type": "input",
+        "text": "",
+        "id": "person_nome[]",
+        "name": "person_nome[]",
+        "class": "",
+        "xpath": "//*[@id=\"person_nome[]\"]",
+        "input_type": "text",
+        "placeholder": ""
+      }
+    ]
+  }
+]
